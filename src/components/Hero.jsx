@@ -48,14 +48,14 @@ export default function Hero() {
                 <motion.div variants={itemVariants} className="flex justify-center items-center gap-8 mb-10">
                     <div className="flex flex-col items-center gap-2">
                         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(255,255,255,0.1)] p-2 border-2 border-gold/30">
-                            <img src="/IKS-Edutainment/geethanjali-logo.png" alt="Geethanjali College" className="w-full h-full object-contain" />
+                            <img src={import.meta.env.BASE_URL + "geethanjali-logo.png"} alt="Geethanjali College" className="w-full h-full object-contain" />
                         </div>
                         <span className="text-[10px] text-dim uppercase tracking-widest font-semibold">GCET</span>
                     </div>
                     <div className="h-12 w-[1px] bg-brd"></div>
                     <div className="flex flex-col items-center gap-2">
                         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(212,148,58,0.1)] p-1 border-2 border-gold/30">
-                            <img src="/IKS-Edutainment/iks-logo.png" alt="IKS Division" className="w-full h-full object-contain" />
+                            <img src={import.meta.env.BASE_URL + "iks-logo.png"} alt="IKS Division" className="w-full h-full object-contain" />
                         </div>
                         <span className="text-[10px] text-dim uppercase tracking-widest font-semibold">MoE & AICTE</span>
                     </div>

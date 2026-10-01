@@ -31,7 +31,7 @@ const interns = [
     {
         name: "N. Abhinav",
         role: "Intern · Ghanitha Module",
-        desc: "Full-stack architecture, mobile integrations, and development of the Ghanitha (Vedic Mathematics) module including the Nikhilam Sutra and Piṅgala's patterns.",
+        desc: "Developed the Ghanitha (Vedic Mathematics) module, including the Nikhilam Sutra and Piṅgala's patterns.",
         github: "github.com/ABHICODZ",
         linkedin: "https://www.linkedin.com/in/abhinav-nadipelly-504971322"
     },
